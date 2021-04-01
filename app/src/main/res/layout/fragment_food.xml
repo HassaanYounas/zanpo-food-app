@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MainScreen.FoodFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/food_section"
+            android:textSize="45sp"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:fontFamily="@font/permanent_marker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:id="@+id/et_food"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/food_search"
+            android:background="@drawable/et_bg"
+            android:textColor="@color/colorPrimaryDark"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="20dp" />
+
+        <Button
+            android:id="@+id/btn_food_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_search"
+            android:background="@drawable/btn_sign_up_bg"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:paddingHorizontal="25dp"
+            android:paddingVertical="5dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            tools:targetApi="o"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_food_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="65dp" />
+
+</LinearLayout>

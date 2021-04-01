@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Zanpo</string>
+    <string name="slogan">Food, Recipes and Nutrition</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="sign_up_msg">Make sure to Sign Up</string>
+    <string name="login_msg">Or if you\'re already registered</string>
+    <string name="skip">skip</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="fullname">Full Name</string>
+    <string name="terms_of_services">I agree to the terms of service</string>
+    <string name="account_msg">Create a New Account</string>
+    <string name="welcome_msg">Welcome back</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="menu_log_out">Log Out</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_favorites">Favorites</string>
+    <string name="menu_my_account">My Account</string>
+    <string name="bottom_nav_food">Food</string>
+    <string name="bottom_nav_recipe">Recipe</string>
+    <string name="bottom_nav_nutrition">Nutrition</string>
+    <string name="food_search">Search for over 700,000 food items</string>
+    <string name="nav_no_user">Not Logged In</string>
+    <string name="btn_search">Search</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
+    <string name="tv_log_out">Are you sure you want to log out?</string>
+    <string name="food_section">Food Section</string>
+    <string name="recipe_section">Recipe Section</string>
+    <string name="tv_recipe_search">Search for over 2 million recipes</string>
+</resources>

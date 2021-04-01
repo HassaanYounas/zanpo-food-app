@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "960787018785",
+    "firebase_url": "https://zanpo-e9ed3.firebaseio.com",
+    "project_id": "zanpo-e9ed3",
+    "storage_bucket": "zanpo-e9ed3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960787018785:android:15497662f149f405",
+        "android_client_info": {
+          "package_name": "com.example.zanpo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960787018785-89e60n1bjque3g8miohp4s5bhermbtev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoOdw1WyPdML9UkCYgF2BzQ47TNjtK_eo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960787018785-89e60n1bjque3g8miohp4s5bhermbtev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

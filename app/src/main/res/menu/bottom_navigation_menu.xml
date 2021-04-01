@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_nav_food"
+        android:title="@string/bottom_nav_food"
+        android:icon="@drawable/food_unselected_icon" />
+    <item
+        android:id="@+id/bottom_nav_recipe"
+        android:title="@string/bottom_nav_recipe"
+        android:icon="@drawable/recipe_unselected_icon" />
+    <item
+        android:id="@+id/bottom_nav_nutrition"
+        android:title="@string/bottom_nav_nutrition"
+        android:icon="@drawable/nutrition_unselected_icon" />
+</menu>

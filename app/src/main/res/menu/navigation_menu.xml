@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_account"
+        android:title="@string/menu_my_account"
+        android:icon="@drawable/logo_account" />
+    <item
+        android:id="@+id/menu_favourites"
+        android:title="@string/menu_favorites"
+        android:icon="@drawable/logo_favourites" />
+    <item
+        android:id="@+id/menu_settings"
+        android:title="@string/menu_settings"
+        android:icon="@drawable/logo_settings" />
+    <item
+        android:id="@+id/menu_sign_up_in"
+        android:title="@string/menu_log_out"
+        android:icon="@drawable/logo_log_out"  />
+</menu>

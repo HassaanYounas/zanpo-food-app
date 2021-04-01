@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpLogin.SignUpActivity"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/account_msg"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:padding="30dp"
+        android:textSize="28sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fullname"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/et_bg"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginHorizontal="20dp"/>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:background="@drawable/et_bg"
+        android:textColor="@color/colorPrimaryDark"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp"/>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:background="@drawable/et_bg"
+        android:textColor="@color/colorPrimaryDark"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp"/>
+
+    <EditText
+        android:id="@+id/et_password_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/confirm_password"
+        android:background="@drawable/et_bg"
+        android:textColor="@color/colorPrimaryDark"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp"/>
+
+    <CheckBox
+        android:id="@+id/chk_terms_of_service"
+        android:textSize="18sp"
+        android:text="@string/terms_of_services"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/btn_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:background="@drawable/btn_sign_up_bg"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:paddingHorizontal="25dp"
+        android:paddingVertical="5dp"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        tools:targetApi="o"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp"/>
+
+    <ImageView
+        android:src="@drawable/signup_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

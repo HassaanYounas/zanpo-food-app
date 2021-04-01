@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E11D49</color>
+    <color name="colorPrimaryDark">#A70026</color>
+    <color name="colorAccent">#E11D49</color>
+    <color name="colorSignUp">#47D718</color>
+    <color name="colorLogin">#EBF50C</color>
+    <color name="colorSkip">#DEDEDE</color>
+    <color name="colorSearch">#29cfdb</color>
+</resources>
